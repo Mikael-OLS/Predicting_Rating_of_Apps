@@ -1,6 +1,6 @@
 # Predicting Mobile Apps Rating
 ## A Linear Model Project
-It feels like everyone have atleast one app idea that they say would make milloins. Ironically, I don't know anybody that actually have gone through with their idea. But if they did, would the app be successful? In this project a linear model will be created to predict the rating of mobile apps. The goals of this project are:
+It feels like everyone has at least had one app idea that they say would make millions. Ironically, I don't know anyone that actually have gone through with their idea. Neverthelsee, if they did, would the app be successful? In this project a linear model will be created to predict the rating of mobile apps. The goals of this project are:
 
 * Make a model that successfully predicts the rating.
 * Find out which variables that are important for predicting.
@@ -17,7 +17,7 @@ In the end, the first goal is completed whilst the second one leaves more to be 
 
 <a name="Data"></a>
 ## Data Exploration
-After cleaning the data, we are left with 13 variables and 9360 observations. The dependent variablehas the following distribution.
+After cleaning the data, we are left with 13 variables and 9360 observations. The dependent variable has the following distribution.
 
 ![bild](https://user-images.githubusercontent.com/62875997/87072253-c304d200-c21b-11ea-8f0c-fe88daddd638.png)
 
@@ -31,7 +31,7 @@ Since the variable "Number of Reviews" is either very low or enormous, we use th
 
 ![bild](https://user-images.githubusercontent.com/62875997/87072611-635af680-c21c-11ea-9d84-36196041b67e.png)
 
-This plot shows the relationsship between the variables "Reviews" and "The logarithm of Number of Reviews". As one can see, when the "The logarithm of Number of Reviews" goes up, the spread of the "Ratings" shortens.
+This plot shows the relationship between the variables "Reviews" and "The logarithm of Number of Reviews". As one can see, when the "The logarithm of Number of Reviews" goes up, the spread of the "Ratings" shortens.
 
 ![bild](https://user-images.githubusercontent.com/62875997/87073106-293e2480-c21d-11ea-8ef5-fbdcd84faf33.png)
 
@@ -160,6 +160,6 @@ This means that our new model perform slightly better than the benchmark! Below 
 ## Summary
 We succeed with the half of the goals by creating a model that predicts the popularity fairly well. The model has a MSE of 0.34 when predicting the ratings that span from 1 to 5. Unfortunally, the R^2 of the model is only around 0.09. This can only be seen as a faluire. The bad R^2 is probably due to the dependent variable being very hard to predict. However, would we choose one variable that explains the variation of our dependent variable, then it would be Reviews_log^2.
 
-If one would be intresting in doing a similar project - I would recommend to try to predict the ratings through ML instead of a linear model.
+If one would be interesting in doing a similar project - I would recommend trying to predict the ratings through ML instead of a linear model.
 
 ## Thanks for reading!
